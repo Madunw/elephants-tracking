@@ -23,7 +23,7 @@
     line-height: 60px;
     width: 60px;
     text-align: center;
-    background-color: #8ECAE6;
+    background-color: #627ed8; 
     transition: 0.6s;
 }
 .text {
@@ -40,20 +40,40 @@
     font-size: 50%;
 }
 .option:hover i {
-    color: #4e4376;
+    color: #a7a6cf;
 }
 .option:hover .text {
     left:60px
 }
 .info {
-    position: relative;
-    width: 80%;
-    margin: auto;
-    background-color: lightcoral;
+    position:absolute;
+    width:100%; 
+	height:100%;
+	background-color: lightcoral;
 }
 
-.galarry {
-    width: 80%;
-    margin: auto;
-    background-color: lightcoral;
+.gallery {
+    position:absolute;
+    width:100%; 
+	height:100%;
+	background-color:rgb(76, 76, 161);
 }
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 360px;
+    height: 360px;
+  }
